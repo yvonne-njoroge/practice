@@ -13,14 +13,35 @@
     font-size: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: green;
+    cursor:pointer;
+}
+nav h2:hover{
+    color:red;
 }
 nav a{
     text-decoration:none;
+    padding-left: 16px;
 }
  nav button{
     background-color: green;
     border-radius: 12px;
     border: none;
     padding: 6px;
+    cursor:pointer;
 }
+nav button:hover{
+    color: blueviolet;
+    background-color:pink;
+}
+.secbar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 36px;
+    margin-left: 20px;
+    
+}
+div{
+    outline:1px black solid;
+}
+
 
