@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
 .navbar{
     display: flex;
     background-color: antiquewhite;
@@ -6,15 +11,16 @@
 }
 .heading{
     font-size: 30px;
-    font-family:cursive;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: green;
 }
-.linemover{
+nav a{
     text-decoration:none;
 }
-button{
+ nav button{
     background-color: green;
     border-radius: 12px;
     border: none;
+    padding: 6px;
 }
 
